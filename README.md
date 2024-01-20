@@ -1,1 +1,1 @@
-# sql_tutorial_patikadev
+Patika.dev SQL eğitimi kapsamında verilen ödevlerdeki soru çözümlerini içermektedir.
