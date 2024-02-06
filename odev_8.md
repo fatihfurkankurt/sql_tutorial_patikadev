@@ -6,7 +6,6 @@ CREATE TABLE employee (
 	birthday DATE NOT NULL,
 	email VARCHAR(100)
 );
-
 ```
 2. Oluşturduğumuz **employee** tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 ```
@@ -60,7 +59,6 @@ insert into employee (id, name, email, birthday) values (47, 'Jase', 'jorrell1a@
 insert into employee (id, name, email, birthday) values (48, 'Harmon', 'hmathivet1b@sun.com', '1973-12-10');
 insert into employee (id, name, email, birthday) values (49, 'Kenneth', 'kposner1c@indiatimes.com', '1970-02-25');
 insert into employee (id, name, email, birthday) values (50, 'Carey', 'cscranney1d@barnesandnoble.com', '1988-07-13');
-
 ```
 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 ```
@@ -90,7 +88,6 @@ UPDATE employee
 SET name = 'Example'
 birthday = '2024-02-06'
 WHERE id BETWEEN 35 AND 45 ;
-
 ```
 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 ```
